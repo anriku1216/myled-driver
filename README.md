@@ -21,7 +21,7 @@
 # 環境・道具
 
 ## 環境
-・Raspberry Pi Model B
+・Raspberry Pi 4 Model B
 
 ・Ubuntu 20.04.1 LTS
 ## 道具
@@ -37,3 +37,29 @@
 # ビルド
 
 ## 実行方法
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
