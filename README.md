@@ -22,6 +22,7 @@
 
 ## 環境
 ・Raspberry Pi Model B
+
 ・Ubuntu 20.04.1 LTS
 ## 道具
 ・ブレッドボード
