@@ -45,10 +45,43 @@ $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 ```
 ## 回路
+gpio25とGNDの間に緑のLEDと抵抗
+gpio24とGNDの間に赤のLEDと抵抗
 
+---
 
+# 実行
 
+## 赤のLEDの点灯
 
+```sh
+$ echo 0 > /dev/myled0
+```
+
+## 緑のLEDの点灯
+
+```sh
+$ echo 1 > /dev/myled0
+```
+
+## 両方のLEDの消灯
+
+```sh
+$ echo 3 > /dev/myled0
+```
+
+## 両方のLEDの点灯
+
+```sh
+$ echo 2 > /dev/myled0
+```
+
+# 終了
+
+```sh
+$ sudo rmmod myled0
+$ make clean
+```
 
 
 
