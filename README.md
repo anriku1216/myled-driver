@@ -37,6 +37,14 @@
 # ビルド
 
 ## 実行方法
+```sh
+$ git clone https://github.com/anriku1216/myled-driver.git
+$ cd myled-driver/
+$ make
+$ sudo insmod myled.ko
+$ sudo chmod 666 /dev/myled0
+```
+## 回路
 
 
 
