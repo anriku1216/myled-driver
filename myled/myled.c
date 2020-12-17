@@ -1,3 +1,8 @@
+// SPDX-License-Identifer: GPL-3.0
+/*
+ *Copyright (C) 2020 Andou Rikuto. All right reserved.
+ */
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
