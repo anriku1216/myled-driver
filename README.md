@@ -83,9 +83,24 @@ $ sudo rmmod myled0
 $ make clean
 ```
 
+---
+
+# デモ動画
+
+YouTubeにあげた動画はこちら
 
 
+---
 
+# 著者
+
+[Rikuto Andou](http://github.com/anriku1216)
+ベースのプログラム開発者：[Ryuichi Ueda](http://github.com/ryuichiueda)
+
+---
+# ライセンス
+
+[GNU General Public License v3.0](http://github.com/anriku1216/myled-driver/blob/main/COPYING)
 
 
 
