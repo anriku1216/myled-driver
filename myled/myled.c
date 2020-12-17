@@ -23,25 +23,25 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 	if(copy_from_user(&c,buf,sizeof(char)))
 		return -EFAULT;
 	if(c == '0')
-{
-gpio_base[10] = 1 << 25;
-gpio_base1[7] = 1 << 24;
-}
-else if(c == '1')
-{
-gpio_base[7] = 1 << 25;
-gpio_base1[10] = 1 << 24;
-}
-else if(c == '2')
-{
-gpio_base1[7] = 1 << 24;
-gpio_base[7] = 1 << 25;
-}
-else if(c == '3')
-{
-gpio_base[10] = 1 << 25;
-gpio_base1[10] = 1 << 24;
-}
+	{
+	gpio_base[10] = 1 << 25;
+	gpio_base1[7] = 1 << 24;
+	}
+	else if(c == '1')
+	{
+	gpio_base[7] = 1 << 25;
+	gpio_base1[10] = 1 << 24;
+	}
+	else if(c == '2')
+	{
+	gpio_base1[7] = 1 << 24;
+	gpio_base[7] = 1 << 25;
+	}
+	else if(c == '3')
+	{
+	gpio_base[10] = 1 << 25;
+	gpio_base1[10] = 1 << 24;
+	}
 
 return 1;
 }
