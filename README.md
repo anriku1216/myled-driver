@@ -87,7 +87,7 @@ $ make clean
 
 # デモ動画
 
-YouTubeにあげた動画はこちら
+YouTubeにあげた動画は[こちら](https://www.youtube.com/watch?v=aJnMT7VQhZk)。
 
 
 ---
